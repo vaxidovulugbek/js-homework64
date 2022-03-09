@@ -136,9 +136,11 @@ let b
 for (let i = 0; i < a.length; i++) {
   if (i % 2 == 0 && a[i] > 0) { 
     console.log(true);
+    break
   }
   else if (i % 2 != 0 && a[i] < 0) {
     console.log(true);
+    break
   }
   else {
     console.log(i)
