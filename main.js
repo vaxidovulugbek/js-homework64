@@ -131,20 +131,20 @@
 
 
 // 14 masala 166
-// let a = [-2, 3, -65, -12, -1, 9]
+let a = [2, -3, 65, -12, 1, -9,8]
 
-// for (let i = 0; i < a.length; i++) {
-//   if (i % 2 == 0 && a[i] > 0) { 
-//     console.log(a[i]);
-//   }
-//   // else if (i % 2 != 0 && i > 0) {
-//   //   console.log(a[i]);
-//   // }
-//   // else {
-//   //   console.log(a[i])
-//   //   break
-//   // }
-// }
+for (let i = 0; i < a.length; i++) {
+  if (i % 2 == 0 && a[i] > 0) { 
+    console.log(true);
+  }
+  else if (i % 2 != 0 && a[i] < 0) {
+    console.log(true);
+  }
+  else {
+    console.log(i)
+    break
+  }
+}
 
 
 
