@@ -132,7 +132,7 @@
 
 // 14 masala 166
 let a = [2, -3, 65, -12, 1, -9,8]
-
+let b 
 for (let i = 0; i < a.length; i++) {
   if (i % 2 == 0 && a[i] > 0) { 
     console.log(true);
